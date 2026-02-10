@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 32px;
+    margin: 16px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 2px solid transparent;
+}
+.card:hover {
+    border-color: black;
+}
+
+#red-card {
+    background-color: aliceblue;
+}
+#red-card h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #ff7f7f;
+    background-color: aliceblue;
+}
+
+#red-card p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: crimson;
+    background-color: aliceblue;
+}
+
+#black-card {
+    background-color: bisque;
+}
+
+#black-card h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #ff7f7f;
+    background-color: bisque;
+}
+
+#black-card p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: bisque;
+}
+
+.card:hover {
+    border-color: black;
+}
