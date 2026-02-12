@@ -8,13 +8,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #000;
 }
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    padding: 32px;
+    padding: 200px;
     margin: 16px;
+    background: #000;
 }
 
 .card {
@@ -26,6 +30,7 @@ body {
     align-items: center;
     border-radius: 12px;
     border: 2px solid transparent;
+    padding: 10px;
 }
 .card:hover {
     border-color: black;
@@ -39,6 +44,7 @@ body {
     font-size: 25px;
     color: #ff7f7f;
     background-color: aliceblue;
+    user-select: none;
 }
 
 #red-card p {
@@ -46,6 +52,7 @@ body {
     font-size: 16px;
     color: crimson;
     background-color: aliceblue;
+    user-select: none;
 }
 
 #black-card {
@@ -57,6 +64,7 @@ body {
     font-size: 25px;
     color: #ff7f7f;
     background-color: bisque;
+    user-select: none;
 }
 
 #black-card p{
@@ -64,6 +72,7 @@ body {
     font-size: 16px;
     color: black;
     background-color: bisque;
+    user-select: none;
 }
 
 .card:hover {
